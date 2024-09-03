@@ -34,7 +34,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         {
             storyBoard = UIStoryboard(name: "AdminFlow", bundle: nil)
         }
-        fixes...
+       
         let isLoggedIn = prefs.bool(forKey: AppConstants.shared.isLoggedIn)
         
         var initialViewController: UIViewController?
